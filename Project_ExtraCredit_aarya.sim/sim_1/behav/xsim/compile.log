@@ -1,0 +1,54 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/Address_Extender.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Address_Extender
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/DataPath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataPath
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/EXE_MEM_Pipeline.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXE_MEM_Pipeline
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/IDEXE_PipelineRegister.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_EXE_Pipeline
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/IFID_PipelineRegister.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFID_PipelineRegister
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/ImmediateExtender.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Immediate_Extender
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/MEM_WB_Pipeline.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEM_WB_Pipeline
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/PCAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PCAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/PC_EXE_Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_EXE_Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/ProgramCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ProgramCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/Register_File.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register_File
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/Regrt_MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Regrt_MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/WB_Mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module WB_Mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/alu_a_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_a_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/alu_b_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_b_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/bcp_Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCP_Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/equality_comparator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module equality_comparer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/fwd_a_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fwd_a_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/fwd_b_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fwd_b_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/jal_f.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jal_f
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/jal_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jal_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/npc_MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module npc_MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench

@@ -1,0 +1,566 @@
+
+*** Running vivado
+    with args -log DataPath.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source DataPath.tcl
+
+
+
+****** Vivado v2024.1 (64-bit)
+  **** SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Sat May  3 16:45:58 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source DataPath.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 515.047 ; gain = 202.168
+Command: synth_design -top DataPath -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 2556
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 971.051 ; gain = 453.023
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'DataPath' [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/DataPath.v:64]
+INFO: [Synth 8-6157] synthesizing module 'npc_MUX' [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/npc_MUX.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'npc_MUX' (0#1) [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/npc_MUX.v:22]
+INFO: [Synth 8-6157] synthesizing module 'Address_Extender' [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/Address_Extender.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'Address_Extender' (0#1) [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/Address_Extender.v:22]
+INFO: [Synth 8-6157] synthesizing module 'BCP_Adder' [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/bcp_Adder.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'BCP_Adder' (0#1) [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/bcp_Adder.v:22]
+INFO: [Synth 8-6157] synthesizing module 'equality_comparer' [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/equality_comparator.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'equality_comparer' (0#1) [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/equality_comparator.v:22]
+INFO: [Synth 8-6157] synthesizing module 'PC_EXE_Adder' [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/PC_EXE_Adder.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'PC_EXE_Adder' (0#1) [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/PC_EXE_Adder.v:22]
+INFO: [Synth 8-6157] synthesizing module 'alu_a_mux' [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/alu_a_mux.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'alu_a_mux' (0#1) [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/alu_a_mux.v:22]
+INFO: [Synth 8-6157] synthesizing module 'jal_mux' [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/jal_mux.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'jal_mux' (0#1) [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/jal_mux.v:22]
+INFO: [Synth 8-6157] synthesizing module 'jal_f' [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/jal_f.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'jal_f' (0#1) [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/jal_f.v:22]
+INFO: [Synth 8-6157] synthesizing module 'ProgramCounter' [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/ProgramCounter.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ProgramCounter' (0#1) [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/ProgramCounter.v:23]
+INFO: [Synth 8-6157] synthesizing module 'PCAdder' [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/PCAdder.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'PCAdder' (0#1) [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/PCAdder.v:23]
+INFO: [Synth 8-6157] synthesizing module 'InstructionMemory' [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/InstructionMemory.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'InstructionMemory' (0#1) [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/InstructionMemory.v:23]
+INFO: [Synth 8-6157] synthesizing module 'IFID_PipelineRegister' [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/IFID_PipelineRegister.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'IFID_PipelineRegister' (0#1) [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/IFID_PipelineRegister.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ControlUnit' [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/ControlUnit.v:22]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/ControlUnit.v:75]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/ControlUnit.v:66]
+INFO: [Synth 8-6155] done synthesizing module 'ControlUnit' (0#1) [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/ControlUnit.v:22]
+INFO: [Synth 8-6157] synthesizing module 'fwd_a_mux' [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/fwd_a_mux.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'fwd_a_mux' (0#1) [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/fwd_a_mux.v:23]
+INFO: [Synth 8-6157] synthesizing module 'fwd_b_mux' [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/fwd_b_mux.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'fwd_b_mux' (0#1) [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/fwd_b_mux.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Regrt_MUX' [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/Regrt_MUX.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'Regrt_MUX' (0#1) [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/Regrt_MUX.v:22]
+INFO: [Synth 8-6157] synthesizing module 'Register_File' [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/Register_File.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'Register_File' (0#1) [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/Register_File.v:22]
+INFO: [Synth 8-6157] synthesizing module 'Immediate_Extender' [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/ImmediateExtender.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'Immediate_Extender' (0#1) [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/ImmediateExtender.v:22]
+INFO: [Synth 8-6157] synthesizing module 'ID_EXE_Pipeline' [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/IDEXE_PipelineRegister.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'ID_EXE_Pipeline' (0#1) [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/IDEXE_PipelineRegister.v:22]
+INFO: [Synth 8-6157] synthesizing module 'alu_b_mux' [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/alu_b_mux.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'alu_b_mux' (0#1) [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/alu_b_mux.v:22]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/ALU.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (0#1) [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/ALU.v:22]
+INFO: [Synth 8-6157] synthesizing module 'EXE_MEM_Pipeline' [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/EXE_MEM_Pipeline.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'EXE_MEM_Pipeline' (0#1) [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/EXE_MEM_Pipeline.v:22]
+INFO: [Synth 8-6157] synthesizing module 'DataMemory' [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/DataMemory.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'DataMemory' (0#1) [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/DataMemory.v:22]
+INFO: [Synth 8-6157] synthesizing module 'MEM_WB_Pipeline' [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/MEM_WB_Pipeline.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'MEM_WB_Pipeline' (0#1) [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/MEM_WB_Pipeline.v:22]
+INFO: [Synth 8-6157] synthesizing module 'WB_Mux' [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/WB_Mux.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'WB_Mux' (0#1) [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/WB_Mux.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'DataPath' (0#1) [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/DataPath.v:64]
+WARNING: [Synth 8-3848] Net rom[35] in module/entity InstructionMemory does not have driver. [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/InstructionMemory.v:28]
+WARNING: [Synth 8-3848] Net rom[36] in module/entity InstructionMemory does not have driver. [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/InstructionMemory.v:28]
+WARNING: [Synth 8-3848] Net rom[37] in module/entity InstructionMemory does not have driver. [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/InstructionMemory.v:28]
+WARNING: [Synth 8-3848] Net rom[38] in module/entity InstructionMemory does not have driver. [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/InstructionMemory.v:28]
+WARNING: [Synth 8-3848] Net rom[39] in module/entity InstructionMemory does not have driver. [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/InstructionMemory.v:28]
+WARNING: [Synth 8-3848] Net rom[40] in module/entity InstructionMemory does not have driver. [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/InstructionMemory.v:28]
+WARNING: [Synth 8-3848] Net rom[41] in module/entity InstructionMemory does not have driver. [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/InstructionMemory.v:28]
+WARNING: [Synth 8-3848] Net rom[42] in module/entity InstructionMemory does not have driver. [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/InstructionMemory.v:28]
+WARNING: [Synth 8-3848] Net rom[43] in module/entity InstructionMemory does not have driver. [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/InstructionMemory.v:28]
+WARNING: [Synth 8-3848] Net rom[44] in module/entity InstructionMemory does not have driver. [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/InstructionMemory.v:28]
+WARNING: [Synth 8-3848] Net rom[45] in module/entity InstructionMemory does not have driver. [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/InstructionMemory.v:28]
+WARNING: [Synth 8-3848] Net rom[46] in module/entity InstructionMemory does not have driver. [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/InstructionMemory.v:28]
+WARNING: [Synth 8-3848] Net rom[47] in module/entity InstructionMemory does not have driver. [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/InstructionMemory.v:28]
+WARNING: [Synth 8-3848] Net rom[48] in module/entity InstructionMemory does not have driver. [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/InstructionMemory.v:28]
+WARNING: [Synth 8-3848] Net rom[49] in module/entity InstructionMemory does not have driver. [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/InstructionMemory.v:28]
+WARNING: [Synth 8-3848] Net rom[50] in module/entity InstructionMemory does not have driver. [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/InstructionMemory.v:28]
+WARNING: [Synth 8-3848] Net rom[51] in module/entity InstructionMemory does not have driver. [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/InstructionMemory.v:28]
+WARNING: [Synth 8-3848] Net rom[52] in module/entity InstructionMemory does not have driver. [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/InstructionMemory.v:28]
+WARNING: [Synth 8-3848] Net rom[53] in module/entity InstructionMemory does not have driver. [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/InstructionMemory.v:28]
+WARNING: [Synth 8-3848] Net rom[54] in module/entity InstructionMemory does not have driver. [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/InstructionMemory.v:28]
+WARNING: [Synth 8-3848] Net rom[55] in module/entity InstructionMemory does not have driver. [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/InstructionMemory.v:28]
+WARNING: [Synth 8-3848] Net rom[56] in module/entity InstructionMemory does not have driver. [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/InstructionMemory.v:28]
+WARNING: [Synth 8-3848] Net rom[57] in module/entity InstructionMemory does not have driver. [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/InstructionMemory.v:28]
+WARNING: [Synth 8-3848] Net rom[58] in module/entity InstructionMemory does not have driver. [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/InstructionMemory.v:28]
+WARNING: [Synth 8-3848] Net rom[59] in module/entity InstructionMemory does not have driver. [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/InstructionMemory.v:28]
+WARNING: [Synth 8-3848] Net rom[60] in module/entity InstructionMemory does not have driver. [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/InstructionMemory.v:28]
+WARNING: [Synth 8-3848] Net rom[61] in module/entity InstructionMemory does not have driver. [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/InstructionMemory.v:28]
+WARNING: [Synth 8-3848] Net rom[62] in module/entity InstructionMemory does not have driver. [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/InstructionMemory.v:28]
+WARNING: [Synth 8-3848] Net rom[63] in module/entity InstructionMemory does not have driver. [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/InstructionMemory.v:28]
+WARNING: [Synth 8-7129] Port addr[31] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[30] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[29] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[28] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[27] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[26] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[25] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[24] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[23] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[22] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[21] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[20] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[19] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[18] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[17] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[16] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[15] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[14] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[13] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[12] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[11] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[10] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[9] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[8] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[7] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[1] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[0] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[31] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[30] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[29] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[28] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[27] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[26] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[25] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[24] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[23] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[22] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[21] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[20] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[19] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[18] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[17] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[16] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[15] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[14] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[13] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[12] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[11] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[10] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[9] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[8] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[1] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc[0] in module InstructionMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port eimm32[31] in module alu_a_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port eimm32[30] in module alu_a_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port eimm32[29] in module alu_a_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port eimm32[28] in module alu_a_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port eimm32[27] in module alu_a_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port eimm32[26] in module alu_a_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port eimm32[25] in module alu_a_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port eimm32[24] in module alu_a_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port eimm32[23] in module alu_a_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port eimm32[22] in module alu_a_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port eimm32[21] in module alu_a_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port eimm32[20] in module alu_a_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port eimm32[19] in module alu_a_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port eimm32[18] in module alu_a_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port eimm32[17] in module alu_a_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port eimm32[16] in module alu_a_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port eimm32[15] in module alu_a_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port eimm32[14] in module alu_a_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port eimm32[13] in module alu_a_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port eimm32[12] in module alu_a_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port eimm32[11] in module alu_a_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port eimm32[5] in module alu_a_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port eimm32[4] in module alu_a_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port eimm32[3] in module alu_a_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port eimm32[2] in module alu_a_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port eimm32[1] in module alu_a_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port eimm32[0] in module alu_a_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpc4[27] in module Address_Extender is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpc4[26] in module Address_Extender is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpc4[25] in module Address_Extender is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpc4[24] in module Address_Extender is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpc4[23] in module Address_Extender is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpc4[22] in module Address_Extender is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpc4[21] in module Address_Extender is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpc4[20] in module Address_Extender is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpc4[19] in module Address_Extender is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpc4[18] in module Address_Extender is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpc4[17] in module Address_Extender is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpc4[16] in module Address_Extender is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpc4[15] in module Address_Extender is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpc4[14] in module Address_Extender is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpc4[13] in module Address_Extender is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpc4[12] in module Address_Extender is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpc4[11] in module Address_Extender is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpc4[10] in module Address_Extender is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpc4[9] in module Address_Extender is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dpc4[8] in module Address_Extender is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1085.109 ; gain = 567.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1085.109 ; gain = 567.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1085.109 ; gain = 567.082
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'npc_reg' [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/npc_MUX.v:31]
+WARNING: [Synth 8-327] inferring latch for variable 'wreg_reg' [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/ControlUnit.v:60]
+WARNING: [Synth 8-327] inferring latch for variable 'm2reg_reg' [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/ControlUnit.v:61]
+WARNING: [Synth 8-327] inferring latch for variable 'wmem_reg' [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/ControlUnit.v:62]
+WARNING: [Synth 8-327] inferring latch for variable 'aluc_reg' [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/ControlUnit.v:63]
+WARNING: [Synth 8-327] inferring latch for variable 'aluimm_reg' [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/ControlUnit.v:71]
+WARNING: [Synth 8-327] inferring latch for variable 'regrt_reg' [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/ControlUnit.v:72]
+WARNING: [Synth 8-327] inferring latch for variable 'i_rt_reg' [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/ControlUnit.v:55]
+WARNING: [Synth 8-327] inferring latch for variable 'i_rs_reg' [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/ControlUnit.v:55]
+WARNING: [Synth 8-327] inferring latch for variable 'pcsrc_reg' [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/ControlUnit.v:74]
+WARNING: [Synth 8-327] inferring latch for variable 'jal_reg' [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/ControlUnit.v:73]
+WARNING: [Synth 8-327] inferring latch for variable 'sext_reg' [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/ControlUnit.v:97]
+WARNING: [Synth 8-327] inferring latch for variable 'dqa_reg' [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/fwd_a_mux.v:33]
+WARNING: [Synth 8-327] inferring latch for variable 'dqb_reg' [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/fwd_b_mux.v:32]
+WARNING: [Synth 8-327] inferring latch for variable 'destReg_reg' [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/Regrt_MUX.v:32]
+WARNING: [Synth 8-327] inferring latch for variable 'b_reg' [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/alu_b_mux.v:32]
+WARNING: [Synth 8-327] inferring latch for variable 'wbData_reg' [C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.srcs/sources_1/new/WB_Mux.v:30]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1085.109 ; gain = 567.082
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 4     
+	   3 Input   32 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 11    
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 11    
++---Muxes : 
+	   4 Input   32 Bit        Muxes := 3     
+	   2 Input   32 Bit        Muxes := 5     
+	   2 Input    5 Bit        Muxes := 2     
+	   2 Input    2 Bit        Muxes := 4     
+	  10 Input    2 Bit        Muxes := 1     
+	  10 Input    1 Bit        Muxes := 2     
+	  13 Input    1 Bit        Muxes := 10    
+	   2 Input    1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+INFO: [Device 21-9227] Part: xc7z010clg400-1 does not have CEAM library.
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3332] Sequential element (npc_mux_inst/npc_reg[31]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (npc_mux_inst/npc_reg[30]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (npc_mux_inst/npc_reg[29]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (npc_mux_inst/npc_reg[28]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (npc_mux_inst/npc_reg[27]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (npc_mux_inst/npc_reg[26]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (npc_mux_inst/npc_reg[25]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (npc_mux_inst/npc_reg[24]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (npc_mux_inst/npc_reg[23]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (npc_mux_inst/npc_reg[22]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (npc_mux_inst/npc_reg[21]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (npc_mux_inst/npc_reg[20]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (npc_mux_inst/npc_reg[19]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (npc_mux_inst/npc_reg[18]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (npc_mux_inst/npc_reg[17]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (npc_mux_inst/npc_reg[16]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (npc_mux_inst/npc_reg[15]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (npc_mux_inst/npc_reg[14]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (npc_mux_inst/npc_reg[13]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (npc_mux_inst/npc_reg[12]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (npc_mux_inst/npc_reg[11]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (npc_mux_inst/npc_reg[10]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (npc_mux_inst/npc_reg[9]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (npc_mux_inst/npc_reg[8]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (npc_mux_inst/npc_reg[7]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (npc_mux_inst/npc_reg[6]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (npc_mux_inst/npc_reg[5]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (npc_mux_inst/npc_reg[4]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (npc_mux_inst/npc_reg[3]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (npc_mux_inst/npc_reg[2]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (npc_mux_inst/npc_reg[1]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (npc_mux_inst/npc_reg[0]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwda_mux_inst/dqa_reg[31]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwda_mux_inst/dqa_reg[30]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwda_mux_inst/dqa_reg[29]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwda_mux_inst/dqa_reg[28]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwda_mux_inst/dqa_reg[27]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwda_mux_inst/dqa_reg[26]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwda_mux_inst/dqa_reg[25]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwda_mux_inst/dqa_reg[24]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwda_mux_inst/dqa_reg[23]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwda_mux_inst/dqa_reg[22]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwda_mux_inst/dqa_reg[21]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwda_mux_inst/dqa_reg[20]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwda_mux_inst/dqa_reg[19]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwda_mux_inst/dqa_reg[18]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwda_mux_inst/dqa_reg[17]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwda_mux_inst/dqa_reg[16]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwda_mux_inst/dqa_reg[15]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwda_mux_inst/dqa_reg[14]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwda_mux_inst/dqa_reg[13]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwda_mux_inst/dqa_reg[12]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwda_mux_inst/dqa_reg[11]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwda_mux_inst/dqa_reg[10]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwda_mux_inst/dqa_reg[9]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwda_mux_inst/dqa_reg[8]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwda_mux_inst/dqa_reg[7]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwda_mux_inst/dqa_reg[6]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwda_mux_inst/dqa_reg[5]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwda_mux_inst/dqa_reg[4]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwda_mux_inst/dqa_reg[3]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwda_mux_inst/dqa_reg[2]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwda_mux_inst/dqa_reg[1]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwda_mux_inst/dqa_reg[0]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwdb_mux_inst/dqb_reg[31]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwdb_mux_inst/dqb_reg[30]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwdb_mux_inst/dqb_reg[29]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwdb_mux_inst/dqb_reg[28]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwdb_mux_inst/dqb_reg[27]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwdb_mux_inst/dqb_reg[26]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwdb_mux_inst/dqb_reg[25]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwdb_mux_inst/dqb_reg[24]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwdb_mux_inst/dqb_reg[23]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwdb_mux_inst/dqb_reg[22]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwdb_mux_inst/dqb_reg[21]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwdb_mux_inst/dqb_reg[20]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwdb_mux_inst/dqb_reg[19]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwdb_mux_inst/dqb_reg[18]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwdb_mux_inst/dqb_reg[17]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwdb_mux_inst/dqb_reg[16]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwdb_mux_inst/dqb_reg[15]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwdb_mux_inst/dqb_reg[14]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwdb_mux_inst/dqb_reg[13]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwdb_mux_inst/dqb_reg[12]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwdb_mux_inst/dqb_reg[11]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwdb_mux_inst/dqb_reg[10]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwdb_mux_inst/dqb_reg[9]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwdb_mux_inst/dqb_reg[8]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwdb_mux_inst/dqb_reg[7]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwdb_mux_inst/dqb_reg[6]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwdb_mux_inst/dqb_reg[5]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwdb_mux_inst/dqb_reg[4]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwdb_mux_inst/dqb_reg[3]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwdb_mux_inst/dqb_reg[2]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwdb_mux_inst/dqb_reg[1]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (fwdb_mux_inst/dqb_reg[0]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (Multiplexer_inst/destReg_reg[4]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (Multiplexer_inst/destReg_reg[3]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (Multiplexer_inst/destReg_reg[2]) is unused and will be removed from module DataPath.
+WARNING: [Synth 8-3332] Sequential element (Multiplexer_inst/destReg_reg[1]) is unused and will be removed from module DataPath.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1432.375 ; gain = 914.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++------------+--------------------------------+-----------+----------------------+----------------+
+|Module Name | RTL Object                     | Inference | Size (Depth x Width) | Primitives     | 
++------------+--------------------------------+-----------+----------------------+----------------+
+|DataPath    | FileRegister_inst/register_reg | Implied   | 32 x 32              | RAM32M x 12    | 
+|DataPath    | Data_Memory_inst/ram_reg       | Implied   | 32 x 32              | RAM32X1S x 32  | 
++------------+--------------------------------+-----------+----------------------+----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1432.375 ; gain = 914.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping Report
++------------+--------------------------------+-----------+----------------------+----------------+
+|Module Name | RTL Object                     | Inference | Size (Depth x Width) | Primitives     | 
++------------+--------------------------------+-----------+----------------------+----------------+
+|DataPath    | FileRegister_inst/register_reg | Implied   | 32 x 32              | RAM32M x 12    | 
+|DataPath    | Data_Memory_inst/ram_reg       | Implied   | 32 x 32              | RAM32X1S x 32  | 
++------------+--------------------------------+-----------+----------------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1432.375 ; gain = 914.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1432.375 ; gain = 914.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1432.375 ; gain = 914.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1432.375 ; gain = 914.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1432.375 ; gain = 914.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1432.375 ; gain = 914.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1432.375 ; gain = 914.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     1|
+|2     |CARRY4   |    43|
+|3     |LUT1     |     6|
+|4     |LUT2     |    98|
+|5     |LUT3     |   112|
+|6     |LUT4     |    31|
+|7     |LUT5     |   198|
+|8     |LUT6     |   425|
+|9     |RAM32M   |    10|
+|10    |RAM32X1D |     4|
+|11    |RAM32X1S |    32|
+|12    |FDRE     |   357|
+|13    |FDSE     |     8|
+|14    |LD       |     6|
+|15    |LDC      |     8|
+|16    |LDP      |     1|
+|17    |IBUF     |     1|
+|18    |OBUF     |   160|
++------+---------+------+
+
+Report Instance Areas: 
++------+-------------------------+----------------------+------+
+|      |Instance                 |Module                |Cells |
++------+-------------------------+----------------------+------+
+|1     |top                      |                      |  1501|
+|2     |  Data_Memory_inst       |DataMemory            |    32|
+|3     |  Alu_inst               |ALU                   |    16|
+|4     |  ControlUnit_inst       |ControlUnit           |    45|
+|5     |  FileRegister_inst      |Register_File         |    15|
+|6     |  ProgramCounter_inst    |ProgramCounter        |    73|
+|7     |  Wb_Mux_inst            |WB_Mux                |    32|
+|8     |  bcp_adder_inst         |BCP_Adder             |     8|
+|9     |  equality_comparer_inst |equality_comparer     |     3|
+|10    |  exe_mem_inst           |EXE_MEM_Pipeline      |   111|
+|11    |  id_exe_inst            |ID_EXE_Pipeline       |   787|
+|12    |  ifid_inst              |IFID_PipelineRegister |   137|
+|13    |  mem_wb_inst            |MEM_WB_Pipeline       |    71|
+|14    |  pc_exe_adder_inst      |PC_EXE_Adder          |     8|
++------+-------------------------+----------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1432.375 ; gain = 914.348
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 374 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1432.375 ; gain = 914.348
+Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1432.375 ; gain = 914.348
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1432.375 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 104 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 14 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1432.375 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 61 instances were transformed.
+  LD => LDCE: 6 instances
+  LDC => LDCE: 8 instances
+  LDP => LDPE: 1 instance 
+  RAM32M => RAM32M (inverted pins: WCLK) (RAMD32(x6), RAMS32(x2)): 10 instances
+  RAM32X1D => RAM32X1D (inverted pins: WCLK) (RAMD32(x2)): 4 instances
+  RAM32X1S => RAM32X1S (RAMS32): 32 instances
+
+Synth Design complete | Checksum: 81f4c519
+INFO: [Common 17-83] Releasing license: Synthesis
+69 Infos, 247 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1432.375 ; gain = 917.328
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1432.375 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.runs/synth_1/DataPath.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file DataPath_utilization_synth.rpt -pb DataPath_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat May  3 16:46:33 2025...

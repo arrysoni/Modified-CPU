@@ -1,0 +1,65 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sat May  3 15:48:22 2025
+# Process ID: 4848
+# Current directory: C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10004 C:\Users\abs7346\Desktop\Project_ExtraCredit_aarya\Project_ExtraCredit_aarya.xpr
+# Log file: C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/vivado.log
+# Journal file: C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya\vivado.jou
+# Running On        :E5-CSE-136-10
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :Intel(R) Core(TM) i7-14700
+# CPU Frequency     :2112 MHz
+# CPU Physical cores:20
+# CPU Logical cores :28
+# Host memory       :34031 MB
+# Swap memory       :5100 MB
+# Total Virtual     :39131 MB
+# Available Virtual :30202 MB
+#-----------------------------------------------------------start_gui
+oopen_project C:/Users/abs7346/Desktop/Project_ExtraCredit_aarya/Project_ExtraCredit_aarya.xprupdate_compile_order -fileset sources_1
+
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+source testbench.tcl
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source testbench.tcl
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source testbench.tcl
+close_sim
+launch_simulation
+source testbench.tcl
+close_sim
+launch_simulation
+source testbench.tcl
+close_sim
+launch_simulation
+source testbench.tcl
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+launch_runs synth_1 -jobs 14
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1
+close_sim
