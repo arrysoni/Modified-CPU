@@ -33,9 +33,19 @@ A test instruction sequence (based on `instruction_memory.v`) checks all major C
 - **ModelSim/Vivado Simulator** (for waveform analysis)
 
 ## 📷 Screenshots
-- Waveforms verifying the `lw` and `add` instructions
-- Synthesized design schematics
-- I/O and floor planning visuals
+
+### 🔹 Waveforms verifying the `lw` and `add` instructions
+![Waveform](https://github.com/arrysoni/Modified-CPU/blob/main/images/waveform_extra_credit.png?raw=true)
+
+### 🔹 Synthesized design schematics
+![Schematic](https://github.com/arrysoni/Modified-CPU/blob/main/images/schematic_extra_credit.png?raw=true)
+
+### 🔹 I/O Planning Visual
+![IO Planning](https://github.com/arrysoni/Modified-CPU/blob/main/images/IO_extra_credit.png?raw=true)
+
+### 🔹 Floor Planning Visual
+![Floor Planning](https://github.com/arrysoni/Modified-CPU/blob/main/images/floorplanning_extra_credit.png?raw=true)
+
 
 ## 📝 Report Includes
 - Verilog design & testbench code
